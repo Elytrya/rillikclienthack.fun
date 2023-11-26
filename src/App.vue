@@ -1,32 +1,44 @@
+
+import { RouterLink } from 'vue-router';
+
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
-  </div>
+    <router-view></router-view>
+    
+    <button id="btn" onclick="window.location.href = 'http://localhost:8080/main'">Нажмите на кнопку для продолжения</button> 
+    </div>
+
+    
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+$maincolor: "#3c6b46";
+#btn{
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(35, 38, 33);
+  border-radius: 20px;
+  transition: all 1s;
 }
 
-nav {
-  padding: 30px;
+/*анимация */
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+button:hover{
+  background-color: #3c6b46;
+  transform: scale(1.6);
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+body{
+  background: linear-gradient(to bottom, #3c6b46, #000000);
+    height: 719px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 </style>
