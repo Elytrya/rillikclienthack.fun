@@ -2,9 +2,9 @@
 
 # rillikclienthack.fun
 
-## Vue.js Setup
+## Vue.js Setup ((((if u not install vue.js))
 ```
-npm install vue ((if u not install vue.js))
+npm install vue 
 ```
 
 ### the path to the file
