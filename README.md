@@ -2,22 +2,25 @@
 
 # rillikclienthack.fun
 
-## Project setup
+## Vue.js Setup
 ```
-npm install
+npm install vue ((if u not install vue.js))
 ```
 
-### Compiles and hot-reloads for development
+### the path to the file
 ```
-npm run serve
+cd "the path to the file"
 ```
 
 ### Compiles and minifies for production
 ```
 npm run build
 ```
-        
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Start project
+```
+npm run serve
+```
 
-by akitiltka
+### Done!
+
+by akitiltka, with support Wavea@Stuido. Thanks to support me. Buy me coffee: https://www.donationalerts.com/r/akitiltka
